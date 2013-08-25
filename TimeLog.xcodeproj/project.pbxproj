@@ -26,6 +26,16 @@
 		442E997617C9730E008999E6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442E997517C9730E008999E6 /* Security.framework */; };
 		442E997817C97313008999E6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442E997717C97313008999E6 /* StoreKit.framework */; };
 		442E997A17C9731C008999E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442E997917C9731C008999E6 /* SystemConfiguration.framework */; };
+		442E997D17C97394008999E6 /* TLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E997C17C97394008999E6 /* TLClient.m */; };
+		442E998117C973B1008999E6 /* TLProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E998017C973B1008999E6 /* TLProject.m */; };
+		442E998417C973BD008999E6 /* TLTaskOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E998317C973BD008999E6 /* TLTaskOrder.m */; };
+		442E998717C973F4008999E6 /* TLWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E998617C973F4008999E6 /* TLWork.m */; };
+		442E998B17C98D0D008999E6 /* TLClientListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E998A17C98D0D008999E6 /* TLClientListViewController.m */; };
+		442E998E17C98FF2008999E6 /* TLProjectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E998D17C98FF2008999E6 /* TLProjectListViewController.m */; };
+		442E999117C993B0008999E6 /* TLTopLevelAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E999017C993B0008999E6 /* TLTopLevelAddViewController.m */; };
+		442E999417C9B3B1008999E6 /* TLDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E999317C9B3B0008999E6 /* TLDatePickerViewController.m */; };
+		442E999717C9B3BE008999E6 /* TLHourPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E999617C9B3BE008999E6 /* TLHourPickerViewController.m */; };
+		442E999A17C9C69F008999E6 /* TLTaskOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442E999917C9C69F008999E6 /* TLTaskOrderListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +62,26 @@
 		442E997517C9730E008999E6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		442E997717C97313008999E6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		442E997917C9731C008999E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		442E997B17C97394008999E6 /* TLClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLClient.h; sourceTree = "<group>"; };
+		442E997C17C97394008999E6 /* TLClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLClient.m; sourceTree = "<group>"; };
+		442E997F17C973B1008999E6 /* TLProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLProject.h; sourceTree = "<group>"; };
+		442E998017C973B1008999E6 /* TLProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLProject.m; sourceTree = "<group>"; };
+		442E998217C973BC008999E6 /* TLTaskOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTaskOrder.h; sourceTree = "<group>"; };
+		442E998317C973BD008999E6 /* TLTaskOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTaskOrder.m; sourceTree = "<group>"; };
+		442E998517C973F4008999E6 /* TLWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLWork.h; sourceTree = "<group>"; };
+		442E998617C973F4008999E6 /* TLWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLWork.m; sourceTree = "<group>"; };
+		442E998917C98D0D008999E6 /* TLClientListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLClientListViewController.h; sourceTree = "<group>"; };
+		442E998A17C98D0D008999E6 /* TLClientListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLClientListViewController.m; sourceTree = "<group>"; };
+		442E998C17C98FF2008999E6 /* TLProjectListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLProjectListViewController.h; sourceTree = "<group>"; };
+		442E998D17C98FF2008999E6 /* TLProjectListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLProjectListViewController.m; sourceTree = "<group>"; };
+		442E998F17C993B0008999E6 /* TLTopLevelAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTopLevelAddViewController.h; sourceTree = "<group>"; };
+		442E999017C993B0008999E6 /* TLTopLevelAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTopLevelAddViewController.m; sourceTree = "<group>"; };
+		442E999217C9B3B0008999E6 /* TLDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLDatePickerViewController.h; sourceTree = "<group>"; };
+		442E999317C9B3B0008999E6 /* TLDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLDatePickerViewController.m; sourceTree = "<group>"; };
+		442E999517C9B3BE008999E6 /* TLHourPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHourPickerViewController.h; sourceTree = "<group>"; };
+		442E999617C9B3BE008999E6 /* TLHourPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLHourPickerViewController.m; sourceTree = "<group>"; };
+		442E999817C9C69E008999E6 /* TLTaskOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTaskOrderListViewController.h; sourceTree = "<group>"; };
+		442E999917C9C69F008999E6 /* TLTaskOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTaskOrderListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +148,8 @@
 		442E995017C97280008999E6 /* TimeLog */ = {
 			isa = PBXGroup;
 			children = (
+				442E998817C98C93008999E6 /* View Controllers */,
+				442E997E17C97399008999E6 /* Model */,
 				442E995917C97280008999E6 /* TLAppDelegate.h */,
 				442E995A17C97280008999E6 /* TLAppDelegate.m */,
 				442E995117C97280008999E6 /* Supporting Files */,
@@ -137,6 +169,40 @@
 				442E996017C97281008999E6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		442E997E17C97399008999E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				442E997B17C97394008999E6 /* TLClient.h */,
+				442E997C17C97394008999E6 /* TLClient.m */,
+				442E997F17C973B1008999E6 /* TLProject.h */,
+				442E998017C973B1008999E6 /* TLProject.m */,
+				442E998217C973BC008999E6 /* TLTaskOrder.h */,
+				442E998317C973BD008999E6 /* TLTaskOrder.m */,
+				442E998517C973F4008999E6 /* TLWork.h */,
+				442E998617C973F4008999E6 /* TLWork.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		442E998817C98C93008999E6 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				442E998917C98D0D008999E6 /* TLClientListViewController.h */,
+				442E998A17C98D0D008999E6 /* TLClientListViewController.m */,
+				442E998C17C98FF2008999E6 /* TLProjectListViewController.h */,
+				442E998D17C98FF2008999E6 /* TLProjectListViewController.m */,
+				442E999817C9C69E008999E6 /* TLTaskOrderListViewController.h */,
+				442E999917C9C69F008999E6 /* TLTaskOrderListViewController.m */,
+				442E998F17C993B0008999E6 /* TLTopLevelAddViewController.h */,
+				442E999017C993B0008999E6 /* TLTopLevelAddViewController.m */,
+				442E999217C9B3B0008999E6 /* TLDatePickerViewController.h */,
+				442E999317C9B3B0008999E6 /* TLDatePickerViewController.m */,
+				442E999517C9B3BE008999E6 /* TLHourPickerViewController.h */,
+				442E999617C9B3BE008999E6 /* TLHourPickerViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +273,16 @@
 			files = (
 				442E995717C97280008999E6 /* main.m in Sources */,
 				442E995B17C97280008999E6 /* TLAppDelegate.m in Sources */,
+				442E997D17C97394008999E6 /* TLClient.m in Sources */,
+				442E998117C973B1008999E6 /* TLProject.m in Sources */,
+				442E998417C973BD008999E6 /* TLTaskOrder.m in Sources */,
+				442E998717C973F4008999E6 /* TLWork.m in Sources */,
+				442E998B17C98D0D008999E6 /* TLClientListViewController.m in Sources */,
+				442E998E17C98FF2008999E6 /* TLProjectListViewController.m in Sources */,
+				442E999117C993B0008999E6 /* TLTopLevelAddViewController.m in Sources */,
+				442E999417C9B3B1008999E6 /* TLDatePickerViewController.m in Sources */,
+				442E999717C9B3BE008999E6 /* TLHourPickerViewController.m in Sources */,
+				442E999A17C9C69F008999E6 /* TLTaskOrderListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
